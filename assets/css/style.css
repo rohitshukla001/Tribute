@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+    }
+/*NAVIGATION*/
+
+.header{
+    position: sticky;
+    top: 0px;
+}  
+
+/*NAVIGATION*/
+
+.header2{
+    position: sticky;
+    top: 0px;}
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    display: inline-table;
+    background-color: rgb(26, 111, 180);
+    border: .2rem black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar2{
+    background-color: rgb(26, 111, 180);
+    border: .2rem black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navfirst{
+    background-color: rgb(73,73,73);
+
+}
+
+ul {
+     list-style: none;
+     margin: 0rem;
+     padding: 0rem;
+}
+
+#search{
+    border: .2rem solid black;
+    border-radius: 5%;
+}
+
+.logo {
+    display: flex;
+    size: 10%;
+    text-align: center;
+}
+
+.logo img{
+    display: flex;
+    height: 4.5rem;
+    text-align: center;
+    align-items:flex-start ;
+    margin-left: 50%;
+    /*padding-left: 50px;
+    border: solid red;*/
+    border-radius: 50%;
+}
+
+.nav-list li{
+    list-style: none;
+    display: inline-block;
+    margin:1%;
+    margin-left: 3rem;
+    padding: 1.5rem 0rem;
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    padding:.5rem ;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(168,124,79);
+    border-radius: 0.8rem;
+    transition:0.5s;
+}
+
+.nav-list{
+    display: flex;
+    position: sticky;
+    margin-bottom: -1%;
+}
+
+.searchbar{
+    display: flex;
+    float: right;
+    text-align: right;
+    width: 0%;
+    margin-bottom: -1%;
+
+}
+
+#search{
+    border-radius: 1%;
+    padding-right: 0rem;    
+}
+
+
+.mainheading{
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1 {
+    max-width: 50rem;
+    height: 19rem;
+}
+
+.firstpara{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.homepage{
+    height: 110vh;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 5%;
+    max-width: 70%
+}
+
+.mainimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstpara{
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.buttons {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border-radius: .8rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.buttons:hover {
+    background-color: rgb(253, 208, 159);
+}
+
+.searchbutton{
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    border-radius: 1rem;
+
+}
+
+/* Interoduction box*/
+
+.father{
+    font-size: 1.5rem;
+    text-align: left;
+    justify-content: left;
+}
+
+.secondheading{
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 2%;
+    padding-left: 20%;
+    align-items: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.secondimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    margin-right: -2rem;
+    max-width: 60rem;
+    height: 20rem;
+}
+
+.secondpara{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.sec2{
+    flex-direction: row-reverse;
+    display: flex;
+    max-width: 72rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer*/
+
+.footersec{
+    background-color: rgb(114, 123, 131);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.footerdiv{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list2{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.nav-list2 li{
+    list-style: none;
+    padding:1%;
+    margin-top: -1%;
+
+}
+
+.nav-list2 li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+
+.nav-list2 li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+}
+
+.footerdiv1{
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    color: rgb(218, 218, 218);
+}
+
+.footerdiv2{
+    margin-top: -2.5rem;
+    padding-bottom: 2rem;
+    color: rgb(218, 218, 218);
+}
+
+/* Submit the Info*/
+.sumbitheading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: sans-serif;
+
+}
+
+.submitpara{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;   
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.inputarea{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#name {
+    font-family: 'Nunito', sans-serif;
+    margin: 2%;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border: .2rem solid grey;
+    border-radius: 8rem;
+    width: 20%;
+}
+
+#email {
+    font-family: 'Nunito', sans-serif;
+    margin: -5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border: .2rem solid grey;
+    border-radius: 8rem;
+    width: 20%;
+}
+
+.submitbutton{
+    font-size: 1.8rem;
+    padding: .5rem;
+    background-color:lightblue;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 2%;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#text{
+    font-family: 'Nunito', sans-serif;
+    margin: 2%;
+    font-size: 1.2rem;
+    border: 0.2rem solid grey;
+    padding-left: 1rem;
+    border-radius: .8rem;
+    width: 20%;
+}
+
+.social-icon{
+    max-height: -5rem;
+    padding-top: -2rem;
+}
+
+
+.team-menber{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    border: navy;
+    font-family: sans-serif;
+    
+}
+
+.emaildiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.contactheading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*About design*/
+.aboutpara2{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rohitimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    padding-left: 35%;
+    width: 19rem;
+}
+
+.aboutpara{
+    display: flex;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    margin-top: -2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+@media(min-width:790px) and (max-width:994px){
+    html{
+        font-size: 80%;
+    }
+
+    .secondpara{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 8rem;
+    }
+
+    .secondimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5rem;
+        margin-right: 1rem;
+        max-width: 60rem;
+        height: 20rem;
+    }
+}
+
+@media(min-width:501px) and (max-width:789px){
+    html{
+        font-size: 50%;
+    }
+
+    .homepage{
+        height: 90vh;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 5%;
+        max-width: 70%
+    }
+    .secondpara{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5rem;
+    }
+
+    .sec2{
+
+        max-width: 72rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondheading{
+        font-size: 3rem;
+        font-weight: 700;
+        justify-content: center;
+        margin-top: 2%;
+        padding-left: 12%;
+        align-items: center;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+    }
+
+    .secondimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5rem;
+        margin-right: 1rem;
+        max-width: 60rem;
+        height: 20rem;
+    }    
+
+    .rohitimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 20rem;
+    }  
+
+}
+
+@media(max-width:500px ){
+    html{
+        font-size: 50%;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .searchbar{
+        display: flex;
+        width: 8rem;
+        padding-bottom: 1rem;
+    }
+    .navbar{
+        flex-direction: column;
+        margin-bottom: -1%;
+        display: inline-table;
+        background-color: rgb(26, 111, 180);
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .secondpara{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5rem;
+        
+        padding-right: 5rem;
+        
+    }
+
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+        margin: 1.5rem;
+        
+        }
+
+    .logo{
+        display: none;
+    }
+        
+    .line{
+        width:33px;
+        background-color: white;
+        height:4px;
+        margin: 3px 3px;
+    }      
+        
+    .h-nav{
+        height:72px
+    }
+
+    .v-class{
+        opacity: 0%;
+    }   
+
+    .mainheading{
+        display: flex;
+        font-weight: 700;
+        text-decoration: underline;
+        padding-left: 4.5rem;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .mainimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .firstpara{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 2rem;
+    }
+    .sec2{
+        flex-direction: row-reverse;
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+    .secondimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 3rem;
+        max-width: 60rem;
+        height: 20rem;
+    }
+
+    .footersec{
+        background-color: rgb(114, 123, 131);
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+
+        align-items: center;
+        margin-bottom: -2%;
+        font-family: 'Nunito', sans-serif;    
+    }
+    
+.secondheading{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    margin-top: -3rem;
+
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 2%;
+    padding-left: 20%;
+    align-items: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.navbar2{
+    margin-bottom: -1%;
+    background-color: rgb(26, 111, 180);
+    font-family: 'Nunito', sans-serif;
+}
+
+.rohitimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding-left: 8rem;
+    width: 20rem;
+    height: 20rem;
+}
+.social-icon{
+    max-height: -1rem;
+    padding-top: -2rem;
+    padding-left: 5rem;
+
+}
+
+
+}
